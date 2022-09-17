@@ -1,0 +1,45 @@
+body {
+    background: #0B2429;
+    margin: 0;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drops {
+    display: flex;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop {
+    width: 120px;
+    height: 120px;
+    background: #F3AC3C;
+    border-radius: 50% 0 50% 50%;
+}
+
+.left {
+    align-self: flex-end;
+    position: relative;
+    left: 16.6%;
+    z-index: 2;
+}
+
+.middle {
+    background-color: #998235;
+    position: relative;
+    z-index: 1;
+
+}
+
+.right {
+    border-radius: 50%;
+    align-self: flex-start;
+    position: relative;
+    right: 16.6%;
+}
