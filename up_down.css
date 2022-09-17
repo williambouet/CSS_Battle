@@ -1,0 +1,30 @@
+body {
+    width: 400px;
+    display: flex;
+    height: 300px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #62306D;
+}
+
+.up {
+    border-radius: 50px 50px 0 0;
+    align-self: flex-start;
+}
+
+.down {
+    border-radius: 0 0 50px 50px;
+    align-self: flex-end;
+}
+
+.UPnDOWN {
+    display: flex;
+    height: 200px;
+}
+
+.UPnDOWN div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+}
