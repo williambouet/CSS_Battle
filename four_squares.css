@@ -1,4 +1,6 @@
 body {
+    width: 400px;
+    height: 300px;
     margin: 0;
     background-color: #62374e;
     display: flex;
