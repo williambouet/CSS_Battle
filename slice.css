@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 300px;
+    width: 400px;
+    background-color: #E3516E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quart {
+    width: 100px;
+    height: 100px;
+}
+
+.white {
+    background-color: #F7F3D7;
+    border-radius: 0 0 0 200px;
+}
+
+.blue {
+    background-color: #51B5A9;
+    border-radius: 200px 0 0 0;
+}
+
+.yellow {
+    background-color: #FADE8B;
+    border-radius: 0 200px 0 0;
+}
+
+.pink {
+    background-color: #E3516E;
+    border-radius: 0 0 0 200px;
+}
