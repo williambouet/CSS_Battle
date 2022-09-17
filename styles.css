@@ -1,0 +1,51 @@
+body {
+    background-color: #293462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    width: 200px;
+    height: 200px;
+    background: #dd6b4d;
+    border-radius: 50% 50% 25% 25%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hairs {
+    display: flex;
+    justify-content: center;
+}
+
+.hairs>div {
+    width: 100px;
+    height: 100px;
+    background: #FFF1C1;
+    border-radius: 50px;
+    margin-top: -50px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.eye {
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    background: #FFF1C1;
+    border-radius: 50%;
+}
+
+.mouth {
+    margin-top: 20px;
+    width: 40px;
+    height: 10px;
+    background: #FFF1C1;
+    border-radius: 15px;
+    align-self: center;
+}
